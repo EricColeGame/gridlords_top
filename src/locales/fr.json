@@ -1,1 +1,466 @@
-{}
+{
+  "site": {
+    "name": "Wiki Gridlords",
+    "shortName": "Gridlords",
+    "tagline": "Guides, builds, héros et stratégie",
+    "description": "Explorez le Wiki Gridlords : guides stratégiques, astuces de jeu, builds, informations tactiques et ressources essentielles pour améliorer vos performances et maîtriser chaque bataille.",
+    "legalNotice": "Wiki de fans non officiel. Fait par des joueurs, pour des joueurs."
+  },
+  "nav": {
+    "home": "Accueil",
+    "menu": "Menu",
+    "toggleTheme": "Changer de thème",
+    "guide": "Guide",
+    "mechanics": "Mécaniques",
+    "builds": "Builds",
+    "units": "Unités",
+    "platforms": "Plateformes",
+    "community": "Communauté"
+  },
+  "home": {
+    "meta": {
+      "title": "Wiki Gridlords – guides, builds et stratégie",
+      "description": "Explorez le Wiki Gridlords : guides stratégiques, astuces de jeu, builds, informations tactiques et ressources essentielles pour améliorer vos performances et maîtriser chaque bataille."
+    },
+    "hero": {
+      "eyebrow": "Jeu de stratégie sur grille",
+      "title": "Wiki Gridlords",
+      "description": "Gridlords est un jeu de stratégie sur grille axé sur le positionnement tactique, la planification et la prise de décision compétitive dans des batailles exigeantes et des systèmes de jeu en constante évolution.",
+      "stats": [
+        "Visites totales",
+        "Unités disponibles",
+        "Codes actifs",
+        "Mises à jour quotidiennes"
+      ],
+      "primaryCta": "Guide du débutant",
+      "secondaryCta": "Guide de tactique sur grille",
+      "tertiaryCta": "Codes actifs",
+      "videoLabel": "Médias officiels"
+    },
+    "updates": {
+      "title": "Dernières mises à jour",
+      "browse": "Parcourir tous les guides",
+      "viewAll": "Tout voir"
+    },
+    "start": {
+      "eyebrow": "Commencez ici",
+      "title": "Votre aventure Gridlords",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guide du débutant",
+          "description": "Apprenez la boucle de combat sur grille, le déploiement des unités et les réflexes de positionnement qui décident de vos premières parties."
+        },
+        {
+          "number": "2",
+          "title": "Meilleurs builds",
+          "description": "Choisissez un build d'escouade adapté à votre style et découvrez quelles unités et améliorations font vraiment gagner une partie."
+        },
+        {
+          "number": "3",
+          "title": "Progression la plus rapide",
+          "description": "Montez plus vite en niveau grâce à des priorités d'amélioration efficaces, de la discipline sur les ressources et de bons choix d'itinéraire entre les combats."
+        },
+        {
+          "number": "4",
+          "title": "Bases du combat",
+          "description": "Lisez le terrain, contrôlez l'ordre des tours et remportez la bataille du positionnement avant même le premier coup."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Pages populaires",
+      "title": "Tendances actuelles",
+      "quickLinks": [
+        "Guide du débutant",
+        "Meilleurs builds",
+        "Tier list des unités",
+        "Combat de château"
+      ],
+      "cards": [
+        {
+          "badge": "Débutant",
+          "title": "Guide du débutant",
+          "description": "Apprenez les bases du combat sur grille, le déploiement et les habitudes qui font gagner vos premières parties.",
+          "href": "/guide/gridlords-beginner-guide"
+        },
+        {
+          "badge": "Populaire",
+          "title": "Meilleurs builds",
+          "description": "Compositions d'escouade optimales, priorités d'amélioration et synergies d'unités pour chaque style de jeu.",
+          "href": "/builds/gridlords-best-build"
+        },
+        {
+          "badge": "Méta",
+          "title": "Unités légendaires",
+          "description": "Comment débloquer et évaluer les unités les plus rares et les plus impactantes du roster.",
+          "href": "/units/gridlords-legendary-units"
+        },
+        {
+          "badge": "Populaire",
+          "title": "Combat de château",
+          "description": "Lisez le terrain, tenez la porte et remportez les sièges grâce à un meilleur positionnement.",
+          "href": "/guide/gridlords-castle-guide"
+        },
+        {
+          "badge": "Nouveau",
+          "title": "Système d'objets",
+          "description": "Niveaux de rareté, jets de statistiques, affixes et placement sur la grille expliqués.",
+          "href": "/mechanics/gridlords-item-system"
+        },
+        {
+          "badge": "Populaire",
+          "title": "Guide PvP",
+          "description": "Économie des actions, initiative et terrain dans les matchs PvP de Gridlords.",
+          "href": "/mechanics/gridlords-pvp"
+        },
+        {
+          "badge": "Mis à jour",
+          "title": "PvP asynchrone",
+          "description": "Comment les escouades fantômes et la logique de défense changent votre préparation.",
+          "href": "/mechanics/gridlords-async-pvp"
+        },
+        {
+          "badge": "Nouveau",
+          "title": "Guide de stratégie",
+          "description": "Tactiques essentielles qui s'appliquent à toutes les escouades, cartes et difficultés.",
+          "href": "/guide/gridlords-strategy"
+        },
+        {
+          "badge": "Mis à jour",
+          "title": "Accès anticipé",
+          "description": "Ce que contient la version actuelle et ce que chaque mise à jour ajoute.",
+          "href": "/platforms/gridlords-early-access"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Qu'est-ce que Gridlords ?",
+      "paragraphs": [
+        "Gridlords est un jeu de tactique sur grille construit autour du positionnement, des affrontements entre unités et de la prise de décision tour par tour. Plutôt que les réflexes, il récompense la planification : vous déployez une escouade, déplacez vos pièces sur un plateau tactique, gérez vos ressources entre les combats et cherchez à surpasser votre adversaire par la réflexion plutôt que par les clics.",
+        "Les batailles mêlent des rencontres solo à un mode autobattler PvP asynchrone, où vous affrontez des escouades sauvegardées et leur logique de défense à votre rythme. L'accès anticipé fait évoluer le roster, l'équilibrage et les systèmes, aussi notre wiki suit la méta actuelle avec des guides, des tier lists et des tutoriels pas à pas."
+      ],
+      "stats": [
+        {
+          "label": "Genre",
+          "value": "Tactique au tour par tour"
+        },
+        {
+          "label": "Plateforme",
+          "value": "PC (Steam)"
+        },
+        {
+          "label": "Mode",
+          "value": "Autobattler PvP asynchrone"
+        },
+        {
+          "label": "Plateau",
+          "value": "Sur grille"
+        },
+        {
+          "label": "Combat",
+          "value": "Positionnement d'escouade"
+        },
+        {
+          "label": "Statut",
+          "value": "Accès anticipé"
+        },
+        {
+          "label": "Éditeur",
+          "value": "Goblinz Publishing"
+        }
+      ],
+      "cta": "Explorer tous les guides"
+    },
+    "explore": {
+      "title": "Explorez le Wiki Gridlords",
+      "description": "Maîtrisez chaque système de Gridlords grâce à des guides pour débutants, des analyses d'unités et de builds, des tier lists, les mécaniques d'objets et le suivi des patchs, réunis au même endroit.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guide du débutant Gridlords",
+          "description": "Guides pour nouveaux joueurs couvrant la boucle de jeu de base, la construction du château, le déploiement des escouades, les synergies d'unités et les fondamentaux du PvP asynchrone.",
+          "href": "/guide/gridlords-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Planifiez tout le tour avant de déplacer la moindre unité"
+            },
+            {
+              "label": "2",
+              "detail": "Gagnez d'abord la position, puis échangez les dégâts"
+            },
+            {
+              "label": "3",
+              "detail": "Concentrez-vous sur une cible à la fois pour supprimer des actions ennemies"
+            },
+            {
+              "label": "4",
+              "detail": "Gardez une option défensive en réserve"
+            },
+            {
+              "label": "5",
+              "detail": "Ignorez les combats d'élite optionnels jusqu'à ce que votre escouade ait de la synergie"
+            },
+            {
+              "label": "6",
+              "detail": "Notez le tour où chaque défaite s'est retournée contre vous"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Guide des héros Gridlords",
+          "description": "Héros jouables et chefs d'unité, leurs capacités, rôles stratégiques et combinaisons d'équipe recommandées pour chaque style de jeu.",
+          "href": "/units/gridlords-legendary-units",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Rareté",
+              "detail": "Les unités communes, rares, épiques et légendaires évoluent en profondeur de kit et en coût d'amélioration"
+            },
+            {
+              "label": "Déblocage",
+              "detail": "Bannières premium, farm d'éclats, paliers d'événement, boutiques d'arène ou fusion"
+            },
+            {
+              "label": "Kit",
+              "detail": "Évaluez ensemble la vitesse, les dégâts de zone, le passif signature et la survie"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Unités et synergies Gridlords",
+          "description": "Types d'unités, voies d'amélioration et puissantes combinaisons de synergie entre bâtiments, unités et capacités qui créent des défenses de château plus solides.",
+          "href": "/units/gridlords-units",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Rôles",
+              "detail": "Avant-garde, tirailleur, tireur, soutien, contrôleur et siège couvrent tous les postes"
+            },
+            {
+              "label": "Couverture",
+              "detail": "Équilibrez première ligne, dégâts à distance et contrôle plutôt que d'empiler un seul rôle"
+            },
+            {
+              "label": "Position",
+              "detail": "Placez les unités à distance en hauteur et faites tourner les unités blessées à couvert"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Builds de château Gridlords",
+          "description": "Dispositions de château populaires et builds stratégiques pour les styles offensifs et défensifs, axées sur les décisions de construction de base et les conseils d'optimisation.",
+          "href": "/guide/gridlords-castle-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Terrain",
+              "detail": "Escaliers, murs, portes, décombres et douves modifient les déplacements et les lignes de vue"
+            },
+            {
+              "label": "Zones",
+              "detail": "La porte et les remparts décident de la plupart des sièges avant même la chute du donjon"
+            },
+            {
+              "label": "Rôles",
+              "detail": "Les ancres tiennent la porte tandis que les unités à distance surveillent la cour"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Tier list Gridlords",
+          "description": "Héros, unités et stratégies classés selon l'équilibrage actuel et les tests de la communauté, mis à jour à mesure que la méta de l'accès anticipé évolue.",
+          "href": "/builds/gridlords-best-build",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Les meilleurs builds et unités qui définissent la méta actuelle"
+            },
+            {
+              "label": "A",
+              "detail": "Des choix solides et fiables pour la plupart des escouades et des cartes"
+            },
+            {
+              "label": "B",
+              "detail": "Des options situationnelles qui ont besoin du bon soutien"
+            },
+            {
+              "label": "C",
+              "detail": "Des choix de niche ou pour débutants à abandonner au fil de votre progression"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Guide des objets Gridlords",
+          "description": "Objets disponibles, améliorations et combinaisons d'objets qui renforcent la puissance du château et les performances au combat, ainsi que les choix de progression.",
+          "href": "/mechanics/gridlords-item-system",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Type de base",
+              "detail": "Filtrez par base avant de regarder les jets de statistiques"
+            },
+            {
+              "label": "Rareté",
+              "detail": "Une rareté plus élevée signifie plus d'emplacements d'affixes : la capacité l'emporte sur un jet chanceux"
+            },
+            {
+              "label": "Jets de statistiques",
+              "detail": "Deux statistiques pertinentes constituent le seuil habituel pour conserver un objet"
+            },
+            {
+              "label": "Affixes",
+              "detail": "Les effets spéciaux et les traits cachent les plus gros pics de puissance"
+            },
+            {
+              "label": "Placement",
+              "detail": "Les bonus de proximité et de tags battent souvent un jet supplémentaire"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Notes de patch Gridlords",
+          "description": "Mises à jour d'équilibrage, nouveaux contenus, changements de gameplay et annonces des développeurs qui suivent l'évolution de la version en accès anticipé.",
+          "href": "/platforms/gridlords-early-access",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Équilibrage",
+              "detail": "Les statistiques, capacités et affrontements des unités changent à chaque mise à jour"
+            },
+            {
+              "label": "Contenu",
+              "detail": "De nouvelles unités, cartes et modes arrivent pendant l'accès anticipé"
+            },
+            {
+              "label": "Systèmes",
+              "detail": "L'économie, la progression et le matchmaking sont continuellement ajustés"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Actualités de la communauté Gridlords",
+          "description": "Actualités officielles, publications des développeurs, discussions de la communauté et annonces importantes qui aident les joueurs à suivre les prochaines fonctionnalités.",
+          "href": "/community/gridlords-discord",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Discord",
+              "detail": "Discussions stratégiques, partage d'escouades et réponses des développeurs en temps réel"
+            },
+            {
+              "label": "Reddit",
+              "detail": "Discussions plus longues, débats sur les tiers et réactions aux patchs"
+            },
+            {
+              "label": "Steam",
+              "detail": "Réactions aux notes de patch, problèmes techniques et tendances des avis"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "description": "Réponses rapides aux questions les plus courantes sur Gridlords.",
+      "items": [
+        {
+          "question": "Qu'est-ce que Gridlords ?",
+          "answer": "Gridlords est un jeu de tactique sur grille axé sur le positionnement, les affrontements entre unités et les décisions tour par tour. Vous déployez une escouade sur un plateau tactique, gérez vos ressources entre les combats et surpassez votre adversaire dans des batailles solo et des matchs autobattler PvP asynchrones."
+        },
+        {
+          "question": "Comment commencer à jouer à Gridlords ?",
+          "answer": "Commencez par le Guide du débutant Gridlords : apprenez la boucle de jeu principale, gardez les unités fragiles à couvert et planifiez tout le tour avant de bouger. Gagner d'abord la position rend les dégâts faciles."
+        },
+        {
+          "question": "Gridlords propose-t-il du PvP ?",
+          "answer": "Oui. Gridlords inclut un mode autobattler PvP asynchrone où vous affrontez une escouade sauvegardée et sa logique de défense, ce qui vous permet de jouer des matchs compétitifs à votre rythme plutôt qu'en temps réel."
+        },
+        {
+          "question": "Quel est le meilleur build Gridlords ?",
+          "answer": "Il n'existe pas de meilleur build Gridlords unique, mais les escouades les plus fortes couvrent trois rôles : une ancre de première ligne résistante, des dégâts à distance fiables et du contrôle ou du soutien. Privilégiez les améliorations qui renforcent votre plan existant plutôt que de disperser vos ressources."
+        },
+        {
+          "question": "Où trouver les tier lists et le suivi des patchs de Gridlords ?",
+          "answer": "Le Wiki Gridlords rassemble les tier lists d'unités, les builds de château, les guides d'objets et le suivi des patchs de l'accès anticipé, pour que vous puissiez voir ce qui a changé avant de vous engager dans une stratégie."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Prêt à maîtriser Gridlords ?",
+      "description": "De votre première bataille au endgame compétitif, notre wiki communautaire vous accompagne avec des guides, des builds et des tactiques Gridlords gratuits et à jour.",
+      "primary": "Lire le guide du débutant",
+      "secondary": "Jouer sur Steam"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Guides Gridlords",
+    "overviewDescription": "Tous les guides Gridlords au même endroit : bases pour débutants, stratégie de château, progression, astuces et tutoriels de builds pas à pas pour vos premières parties et au-delà."
+  },
+  "mechanics": {
+    "overviewTitle": "Mécaniques de jeu Gridlords",
+    "overviewDescription": "Comment Gridlords se joue réellement : manches autobattler, PvP asynchrone, combat de château, systèmes d'objets et règles de mise à l'échelle de chaque rencontre."
+  },
+  "builds": {
+    "overviewTitle": "Builds Gridlords",
+    "overviewDescription": "Guides de builds Gridlords pour chaque style de jeu, des meilleures escouades globales aux compositions canon, infanterie, laser et centrées sur les unités."
+  },
+  "units": {
+    "overviewTitle": "Unités Gridlords",
+    "overviewDescription": "Guides d'unités Gridlords couvrant tout le roster, les unités légendaires, les Chevaucheurs de griffon, les Gyrocoptères et les synergies qui les font fonctionner."
+  },
+  "platforms": {
+    "overviewTitle": "Plateformes et sortie de Gridlords",
+    "overviewDescription": "Où jouer à Gridlords : détails de la page Steam, disponibilité de la démo, statut d'accès anticipé, actualités sur la date de sortie et bande-annonce officielle."
+  },
+  "community": {
+    "overviewTitle": "Communauté Gridlords",
+    "overviewDescription": "Hub communautaire Gridlords : discussions Discord et Reddit, avis des joueurs, séquences de gameplay et couverture de la dernière bande-annonce."
+  },
+  "shared": {
+    "wikiNavigation": "Navigation du wiki",
+    "activeCodes": "Codes actifs",
+    "updated": "Mis à jour",
+    "viewAllCodes": "Parcourir tous les guides",
+    "inThisSection": "Dans cette section",
+    "tableOfContents": "Table des matières",
+    "nextSteps": "Étapes suivantes",
+    "needHelp": "Besoin d'aide ?",
+    "relatedReading": "Lectures associées",
+    "relatedGuides": "Guides associés",
+    "readMore": "En savoir plus",
+    "officialMedia": "Médias officiels",
+    "home": "Accueil",
+    "noGuidesAvailable": "Aucun guide disponible pour le moment. Revenez bientôt !",
+    "playOnSteam": "Jouer sur Steam"
+  },
+  "footer": {
+    "aboutTitle": "Wiki Gridlords",
+    "about": "Le Wiki Gridlords est un hub de guides indépendant créé par des fans, couvrant les guides stratégiques, les unités, les cartes, les builds, les tactiques et l'essentiel des connaissances du jeu, pour les nouveaux joueurs comme les vétérans.",
+    "quickLinks": "Liens rapides",
+    "guides": "Guides",
+    "legal": "Mentions légales",
+    "copyright": "2026 Wiki Gridlords. Non affilié aux développeurs ou éditeurs de Gridlords.",
+    "description": "Jeu de stratégie sur grille. Commandez vos unités, planifiez vos tactiques et surclassez chaque adversaire.",
+    "playGame": "Jouer à Gridlords sur Steam",
+    "officialDiscord": "Discord officiel",
+    "officialYoutube": "YouTube officiel",
+    "beginnerGuide": "Guide du débutant",
+    "buildGuide": "Guide de build",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation",
+    "teamBuilder": "Créateur Gridlords (planificateur d'équipe)",
+    "unitGuides": "Guides d'unités",
+    "mechanicGuides": "Mécaniques de jeu"
+  }
+}
