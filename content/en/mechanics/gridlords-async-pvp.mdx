@@ -1,0 +1,141 @@
+export const metadata = {
+  title: "Gridlords Async PvP Explained: Offline Battles, Ghost Squads, and Turn Timers",
+  description: "A practical guide to Gridlords async PvP: how ghost squads, snapshots, turn timers, and defense logs work, plus tips to win more offline battles.",
+  category: "mechanics",
+  date: "2026-10-13",
+}
+
+## What Gridlords Async PvP Actually Means
+
+Gridlords async PvP is the game's answer to a simple problem: nobody wants to sit in a lobby waiting for a live opponent. Instead of requiring both players to be online at the same time, an asynchronous match lets you attack a saved copy of someone else's squad while they're offline — and they resolve the fight later, on their own schedule.
+
+That design choice is why Gridlords async PvP matters so much for a grid tactics game. It compresses a full tactical battle into something you can finish in a coffee break, a commute, or the two minutes between meetings, without ever feeling like you lost because your opponent was faster at clicking.
+
+The trade-off is real, though. You can't read hesitation, you can't bluff, and you can't adapt mid-match to a human who just changed their mind. What you get instead is preparation and execution: planning against a fixed setup rather than a living one.
+
+| Factor | Live (synchronous) PvP | Gridlords async PvP |
+|---|---|---|
+| Both players online at once | Required | Not required |
+| Match pace | Real-time pressure | Play at your own speed |
+| What you face | A thinking human | A saved squad plus defense logic |
+| Disconnect risk | Can pause or end the match | Effectively irrelevant |
+| Core skill tested | Reaction and adaptation | Preparation and execution |
+| Best fit for | Long competitive sessions | Short, frequent sessions |
+
+## How an Async Match Plays Out, Step by Step
+
+Most asynchronous tactics systems follow the same loop, and Gridlords is no exception. Understanding that loop is the difference between guessing at results and actually controlling them.
+
+| Step | What happens | Who is active |
+|---|---|---|
+| 1. Snapshot | Your opponent's squad is saved as a defensive copy | System |
+| 2. Scouting | You view the saved layout before committing | Attacker |
+| 3. Deployment | You choose units and opening positions | Attacker |
+| 4. Resolution | The battle plays out against the saved data | System |
+| 5. Log entry | The result is written to attack and defense records | Both players |
+| 6. Replay | The defender reviews the fight afterward | Defender |
+| 7. Update | Rankings, records, and rewards adjust | System |
+
+A few terms come up constantly in community discussions, so it helps to know them:
+
+- **Snapshot** — the frozen copy of a player's squad at the moment it was recorded.
+- **Ghost squad** — the common nickname for that snapshot when it fights on someone's behalf.
+- **Defense log** — the running record of who attacked you and how it ended.
+- **Replay** — the playback of a battle you weren't present for.
+- **Turn timer** — the per-turn clock that keeps an async attack from stalling forever.
+
+The important insight here is that nothing about the defender's *intent* survives into the match. Only their layout, their unit choices, and whatever defensive behavior the game assigns to them. That is what you're solving.
+
+## Ghost Squads, Defense Logic, and the Attacker's Edge
+
+Because the defender can't react, the attacker almost always starts with an information advantage. Player experience in async tactics games consistently shows the same pattern: the person who attacks second — that is, the person who chooses when to attack — wins more often than the person whose squad is sitting there waiting.
+
+| Advantage | Attacker | Defender |
+|---|---|---|
+| Timing | Chooses when to engage | Must wait to be attacked |
+| Information | Can scout the layout first | Cannot adapt to your opening |
+| Positioning | Free to pick any opening | Locked into a pre-set layout |
+| Risk | Loses standing on a failed attack | Can be attacked repeatedly |
+| Reward | Active gains from wins | Passive gains from successful holds |
+
+### Why defense still matters
+
+It's tempting to treat defense as an afterthought once you realize attackers have the edge. That's a mistake, for three reasons:
+
+1. **Defense results resolve while you sleep.** Every hold is progress you didn't have to play for.
+2. **Repeat attackers are common.** If your layout is easy to crack, the same opponents will keep coming back to it.
+3. **Ladder position compounds.** A defense that holds even half the time keeps your rating from bleeding during off hours.
+
+### How to read a defense before you commit
+
+Scouting is free in most async modes, so use it. Community reports suggest the most reliable pre-attack checklist looks like this:
+
+- Identify the **chokepoints** first — the tiles where only one or two units can fight at a time.
+- Look for **isolated units** that can be picked off before the main line engages.
+- Note any **high-value unit** that's poorly screened; that's usually the key to the whole layout.
+- Check for **symmetry**. Symmetrical defenses are usually scripted defenses, and scripted defenses have a known counter.
+- Decide your **win condition** before you deploy, not after.
+
+## Timers, Ladders, and Rewards: What to Expect
+
+Async PvP usually splits into a few recognizable buckets. Exact names and reward structures shift between updates, so treat the table below as a map of the *types* of play rather than a fixed list.
+
+| Mode type | Opponent source | Typical stakes | Session length |
+|---|---|---|---|
+| Friendly / unranked | Chosen or random players | No rating change | Very short |
+| Ranked ladder | Rating-matched snapshots | Rating up or down | Short to medium |
+| Seasonal / event | Event-specific pool | Limited-time rewards | Medium |
+| Guild or group | Rival groups | Shared standings | Varies |
+
+Two things are worth planning around. First, **ranked defense results can move your rating while you're offline**, so a weak layout effectively taxes every session you play. Second, **turn timers exist to protect the ladder from stalling** — if an attacker abandons a match, the system eventually resolves it rather than leaving it open indefinitely.
+
+If you want to go deeper on how the game is packaged and updated, the [Steam storefront](https://store.steampowered.com/) is the most reliable place to check official announcements, patch notes, and platform availability.
+
+| Player type | Best async habit | Why it helps |
+|---|---|---|
+| Short on time | Attack in one sitting, never partially | Avoids timer losses and forgotten matches |
+| Ladder climber | Review defense log weekly | Finds the layout weakness costing you rating |
+| Casual | Set a defense and forget it | Passive progress with zero extra playtime |
+| Completionist | Prioritize seasonal pools | Time-limited rewards expire; rating doesn't |
+
+## Practical Tips to Win More Gridlords Async PvP Battles
+
+These habits show up again and again among players who climb steadily rather than in bursts.
+
+**1. Scout, then commit — never the reverse.** The biggest async mistake is deploying the squad you *like* instead of the squad that beats the layout in front of you.
+
+**2. Build a defense that punishes the obvious opening.** Assume your opponent will attack from the most natural angle. If your layout collapses to that angle, it collapses to most players.
+
+**3. Keep one flexible unit in reserve.** A unit that can plug a gap or finish a wounded target is worth more in async than in live play, because you can't improvise with a human opponent.
+
+**4. Treat your defense log as a coaching tool.** Losses you weren't present for are pure information — they show exactly which opening your layout can't handle.
+
+**5. Don't chase every attack.** Rating swings are noisy. Attacking a bad matchup out of frustration is how a good session turns into a losing one.
+
+**6. Respect the timer.** Async doesn't mean "no clock." If you start a match you can't finish, you're gambling on the system's resolution rather than your own play.
+
+| Common mistake | What it costs | Fix |
+|---|---|---|
+| Auto-deploying a saved squad | Loses winnable matchups | Scout, then adjust the opening |
+| Ignoring the defense log | Rating bleeds overnight | Review losses weekly |
+| Over-investing in one star unit | One counter ends the run | Spread threat across two units |
+| Attacking while distracted | Timer losses, sloppy openings | Play one match at a time |
+| Copying a popular layout | Predictable, easy to counter | Adapt, don't duplicate |
+
+## FAQ
+
+**Do I need to be online at the same time as my opponent for Gridlords async PvP?**
+No. That's the entire point of the mode. You attack a saved version of another player's squad, and they see the result later through their defense log. Neither player has to wait for the other.
+
+**Can I lose rating while I'm offline?**
+In ranked async modes, yes — that's a normal part of the design. Your defense resolves attacks on its own, so a layout that holds well protects your rating even during long breaks, while a weak one quietly drains it.
+
+**Are ghost squads weaker than real players?**
+Not inherently. A snapshot is a full-strength squad; what it lacks is a human making decisions in the moment. That makes ghost squads more predictable but often more consistent, since they never panic or misclick.
+
+**How fast can I improve at Gridlords async PvP?**
+Most players see the quickest gains from two habits: scouting before deploying and reviewing defense losses. Both take a couple of minutes per session, and together they fix the two most common sources of avoidable losses.
+
+## The Bottom Line
+
+Gridlords async PvP rewards the patient planner more than the fast clicker. Learn the loop — snapshot, scout, deploy, resolve — then treat your defense log as a free lesson plan. Do that, and the mode stops being a waiting game and starts being a strategy game you happen to play on your own schedule.

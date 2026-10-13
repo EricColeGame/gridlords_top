@@ -1,0 +1,141 @@
+export const metadata = {
+  title: "Gridlords Async PvP explicado: batallas offline, escuadrones fantasma y temporizadores de turno",
+  description: "Una guía práctica del PvP asíncrono de Gridlords: cómo funcionan los escuadrones fantasma, las instantáneas, los temporizadores de turno y los registros de defensa, además de consejos para ganar más batallas offline.",
+  category: "mechanics",
+  date: "2026-10-13",
+}
+
+## Qué significa realmente el PvP asíncrono de Gridlords
+
+El PvP asíncrono de Gridlords es la respuesta del juego a un problema simple: nadie quiere sentarse en un lobby esperando a un oponente en vivo. En lugar de exigir que ambos jugadores estén conectados al mismo tiempo, una partida asíncrona te permite atacar una copia guardada del escuadrón de otra persona mientras está desconectada, y esa persona resuelve el combate más tarde, cuando le venga bien.
+
+Esa decisión de diseño es la razón por la que el PvP asíncrono de Gridlords importa tanto en un juego de táctica por cuadrícula. Comprime una batalla táctica completa en algo que puedes terminar en una pausa para el café, en el trayecto al trabajo o en los dos minutos entre reuniones, sin sentir nunca que perdiste porque tu oponente era más rápido haciendo clic.
+
+Sin embargo, el intercambio es real. No puedes leer la duda, no puedes farolear y no puedes adaptarte a mitad de partida a un humano que acaba de cambiar de opinión. Lo que obtienes a cambio es preparación y ejecución: planificar contra una configuración fija en lugar de una viva.
+
+| Factor | PvP en vivo (síncrono) | PvP asíncrono de Gridlords |
+|---|---|---|
+| Ambos jugadores conectados a la vez | Obligatorio | No obligatorio |
+| Ritmo de la partida | Presión en tiempo real | Juega a tu propio ritmo |
+| A qué te enfrentas | A un humano pensante | A un escuadrón guardado más lógica de defensa |
+| Riesgo de desconexión | Puede pausar o terminar la partida | Prácticamente irrelevante |
+| Habilidad principal evaluada | Reacción y adaptación | Preparación y ejecución |
+| Ideal para | Sesiones competitivas largas | Sesiones cortas y frecuentes |
+
+## Cómo se desarrolla una partida asíncrona, paso a paso
+
+La mayoría de los sistemas tácticos asíncronos siguen el mismo bucle, y Gridlords no es la excepción. Entender ese bucle es la diferencia entre adivinar los resultados y controlarlos de verdad.
+
+| Paso | Qué ocurre | Quién está activo |
+|---|---|---|
+| 1. Instantánea | El escuadrón de tu oponente se guarda como copia defensiva | Sistema |
+| 2. Exploración | Ves la disposición guardada antes de comprometerte | Atacante |
+| 3. Despliegue | Eliges unidades y posiciones iniciales | Atacante |
+| 4. Resolución | La batalla se desarrolla contra los datos guardados | Sistema |
+| 5. Entrada en el registro | El resultado se escribe en los registros de ataque y defensa | Ambos jugadores |
+| 6. Repetición | El defensor revisa el combate después | Defensor |
+| 7. Actualización | Se ajustan clasificaciones, registros y recompensas | Sistema |
+
+Algunos términos aparecen constantemente en las discusiones de la comunidad, así que conviene conocerlos:
+
+- **Instantánea** — la copia congelada del escuadrón de un jugador en el momento en que se registró.
+- **Escuadrón fantasma** — el apodo común de esa instantánea cuando lucha en nombre de alguien.
+- **Registro de defensa** — el historial continuo de quién te atacó y cómo terminó.
+- **Repetición** — la reproducción de una batalla en la que no estuviste presente.
+- **Temporizador de turno** — el reloj por turno que evita que un ataque asíncrono se estanque para siempre.
+
+La idea importante aquí es que nada de la *intención* del defensor sobrevive en la partida. Solo su disposición, sus elecciones de unidades y el comportamiento defensivo que el juego les asigne. Eso es lo que estás resolviendo.
+
+## Escuadrones fantasma, lógica de defensa y la ventaja del atacante
+
+Como el defensor no puede reaccionar, el atacante casi siempre empieza con ventaja de información. La experiencia de los jugadores en juegos de táctica asíncrona muestra consistentemente el mismo patrón: quien ataca segundo — es decir, quien elige cuándo atacar — gana más a menudo que quien tiene su escuadrón ahí esperando.
+
+| Ventaja | Atacante | Defensor |
+|---|---|---|
+| Momento | Elige cuándo entrar en combate | Debe esperar a ser atacado |
+| Información | Puede explorar la disposición primero | No puede adaptarse a tu apertura |
+| Posicionamiento | Libre de elegir cualquier apertura | Bloqueado en una disposición predefinida |
+| Riesgo | Pierde posición si falla el ataque | Puede ser atacado repetidamente |
+| Recompensa | Ganancias activas por victorias | Ganancias pasivas por defensas exitosas |
+
+### Por qué la defensa sigue importando
+
+Es tentador tratar la defensa como algo secundario una vez que te das cuenta de que los atacantes tienen ventaja. Eso es un error, por tres razones:
+
+1. **Los resultados de defensa se resuelven mientras duermes.** Cada defensa exitosa es progreso que no tuviste que jugar.
+2. **Los atacantes recurrentes son comunes.** Si tu disposición es fácil de romper, los mismos oponentes seguirán volviendo a ella.
+3. **La posición en la escalera se acumula.** Una defensa que aguanta aunque sea la mitad de las veces evita que tu clasificación se desangre fuera de horario.
+
+### Cómo leer una defensa antes de comprometerte
+
+La exploración es gratuita en la mayoría de los modos asíncronos, así que úsala. Los informes de la comunidad sugieren que la lista de verificación previa al ataque más fiable es esta:
+
+- Identifica primero los **puntos de estrangulamiento**: las casillas donde solo una o dos unidades pueden luchar a la vez.
+- Busca **unidades aisladas** que puedan eliminarse antes de que entre en combate la línea principal.
+- Fíjate en cualquier **unidad de alto valor** mal protegida; normalmente es la clave de toda la disposición.
+- Comprueba si hay **simetría**. Las defensas simétricas suelen ser defensas programadas, y las defensas programadas tienen un contraconocido.
+- Decide tu **condición de victoria** antes de desplegar, no después.
+
+## Temporizadores, escaleras y recompensas: qué esperar
+
+El PvP asíncrono suele dividirse en unos pocos grupos reconocibles. Los nombres exactos y las estructuras de recompensas cambian entre actualizaciones, así que toma la siguiente tabla como un mapa de los *tipos* de juego, no como una lista fija.
+
+| Tipo de modo | Fuente de oponentes | Apuestas típicas | Duración de la sesión |
+|---|---|---|---|
+| Amistoso / sin clasificación | Jugadores elegidos o aleatorios | Sin cambio de clasificación | Muy corta |
+| Escalera clasificatoria | Instantáneas emparejadas por clasificación | Sube o baja la clasificación | Corta a media |
+| De temporada / evento | Grupo específico del evento | Recompensas por tiempo limitado | Media |
+| De gremio o grupo | Grupos rivales | Clasificaciones compartidas | Variable |
+
+Hay dos cosas que conviene planificar. Primero, **los resultados de defensa clasificatoria pueden mover tu clasificación mientras estás desconectado**, así que una disposición débil grava efectivamente cada sesión que juegas. Segundo, **los temporizadores de turno existen para proteger la escalera de estancarse**: si un atacante abandona una partida, el sistema acaba resolviéndola en lugar de dejarla abierta indefinidamente.
+
+Si quieres profundizar en cómo se empaqueta y actualiza el juego, la [tienda de Steam](https://store.steampowered.com/) es el lugar más fiable para consultar anuncios oficiales, notas del parche y disponibilidad en plataformas.
+
+| Tipo de jugador | Mejor hábito asíncrono | Por qué ayuda |
+|---|---|---|
+| Con poco tiempo | Atacar de una sentada, nunca a medias | Evita pérdidas por temporizador y partidas olvidadas |
+| Trepador de escalera | Revisar el registro de defensa semanalmente | Encuentra la debilidad de disposición que te cuesta clasificación |
+| Casual | Poner una defensa y olvidarse | Progreso pasivo sin tiempo de juego extra |
+| Completista | Priorizar grupos de temporada | Las recompensas por tiempo limitado caducan; la clasificación no |
+
+## Consejos prácticos para ganar más batallas en el PvP asíncrono de Gridlords
+
+Estos hábitos aparecen una y otra vez entre los jugadores que suben de forma constante en lugar de a rachas.
+
+**1. Explora, luego comprométete; nunca al revés.** El mayor error asíncrono es desplegar el escuadrón que te *gusta* en lugar del escuadrón que vence a la disposición que tienes delante.
+
+**2. Construye una defensa que castigue la apertura obvia.** Asume que tu oponente atacará desde el ángulo más natural. Si tu disposición se derrumba ante ese ángulo, se derrumba ante la mayoría de los jugadores.
+
+**3. Mantén una unidad flexible en reserva.** Una unidad que pueda tapar un hueco o rematar a un objetivo herido vale más en asíncrono que en juego en vivo, porque no puedes improvisar con un oponente humano.
+
+**4. Trata tu registro de defensa como una herramienta de entrenamiento.** Las derrotas en las que no estuviste presente son información pura: muestran exactamente qué apertura no puede manejar tu disposición.
+
+**5. No persigas cada ataque.** Los vaivenes de clasificación son ruidosos. Atacar un mal enfrentamiento por frustración es como una buena sesión se convierte en una perdedora.
+
+**6. Respeta el temporizador.** Asíncrono no significa "sin reloj". Si empiezas una partida que no puedes terminar, estás apostando por la resolución del sistema en lugar de por tu propia forma de jugar.
+
+| Error común | Qué cuesta | Solución |
+|---|---|---|
+| Desplegar automáticamente un escuadrón guardado | Pierde enfrentamientos ganables | Explora y luego ajusta la apertura |
+| Ignorar el registro de defensa | La clasificación se desangra durante la noche | Revisa las derrotas semanalmente |
+| Invertir demasiado en una unidad estrella | Un solo contraataque termina la racha | Reparte la amenaza entre dos unidades |
+| Atacar estando distraído | Pérdidas por temporizador, aperturas descuidadas | Juega una partida a la vez |
+| Copiar una disposición popular | Predecible, fácil de contrarrestar | Adapta, no dupliques |
+
+## Preguntas frecuentes
+
+**¿Necesito estar conectado al mismo tiempo que mi oponente para el PvP asíncrono de Gridlords?**
+No. Ese es precisamente el objetivo del modo. Atacas una versión guardada del escuadrón de otro jugador, y esa persona ve el resultado más tarde a través de su registro de defensa. Ninguno de los dos tiene que esperar al otro.
+
+**¿Puedo perder clasificación mientras estoy desconectado?**
+En los modos asíncronos clasificatorios, sí; eso es una parte normal del diseño. Tu defensa resuelve los ataques por su cuenta, así que una disposición que aguanta bien protege tu clasificación incluso durante pausas largas, mientras que una débil la drena en silencio.
+
+**¿Son los escuadrones fantasma más débiles que los jugadores reales?**
+No inherentemente. Una instantánea es un escuadrón a plena potencia; lo que le falta es un humano tomando decisiones en el momento. Eso hace que los escuadrones fantasma sean más predecibles, pero a menudo más consistentes, ya que nunca entran en pánico ni hacen clic por error.
+
+**¿Qué tan rápido puedo mejorar en el PvP asíncrono de Gridlords?**
+La mayoría de los jugadores obtiene las mejoras más rápidas con dos hábitos: explorar antes de desplegar y revisar las derrotas de defensa. Ambos toman un par de minutos por sesión y, juntos, corrigen las dos fuentes más comunes de derrotas evitables.
+
+## En resumen
+
+El PvP asíncrono de Gridlords recompensa más al planificador paciente que al que hace clic rápido. Aprende el bucle —instantánea, exploración, despliegue, resolución— y luego trata tu registro de defensa como un plan de lecciones gratuito. Haz eso, y el modo deja de ser un juego de espera y pasa a ser un juego de estrategia que resulta que juegas a tu propio ritmo.

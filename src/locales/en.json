@@ -9,7 +9,13 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "builds": "Builds",
+    "units": "Units",
+    "platforms": "Platforms",
+    "community": "Community"
   },
   "home": {
     "meta": {
@@ -397,13 +403,35 @@
       "secondary": "Play on Steam"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Gridlords Guides",
+    "overviewDescription": "Every Gridlords guide in one place: beginner basics, castle strategy, progression, tips, and step-by-step build walkthroughs for your first runs and beyond."
+  },
+  "mechanics": {
+    "overviewTitle": "Gridlords Game Mechanics",
+    "overviewDescription": "How Gridlords actually plays: autobattler rounds, async PvP, castle combat, item systems, and the scaling rules behind every encounter."
+  },
+  "builds": {
+    "overviewTitle": "Gridlords Builds",
+    "overviewDescription": "Gridlords build guides for every playstyle, from best overall squads to cannon, infantry, laser, and unit-focused compositions."
+  },
+  "units": {
+    "overviewTitle": "Gridlords Units",
+    "overviewDescription": "Gridlords unit guides covering the full army roster, legendary units, Griffin Riders, Gyrocopters, and the synergies that make them work."
+  },
+  "platforms": {
+    "overviewTitle": "Gridlords Platforms & Release",
+    "overviewDescription": "Where to play Gridlords: Steam page details, demo availability, early access status, release date news, and the official trailer."
+  },
+  "community": {
+    "overviewTitle": "Gridlords Community",
+    "overviewDescription": "Gridlords community hub: Discord and Reddit discussions, player reviews, gameplay footage, and the latest trailer coverage."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
     "updated": "Updated",
-    "viewAllCodes": "View all codes",
-    "playOnRoblox": "Play on Steam",
+    "viewAllCodes": "Browse all guides",
     "inThisSection": "In this section",
     "tableOfContents": "Table of Contents",
     "nextSteps": "Next Steps",
@@ -413,7 +441,8 @@
     "readMore": "Read more",
     "officialMedia": "Official media",
     "home": "Home",
-    "noGuidesAvailable": "No guides available yet. Check back soon!"
+    "noGuidesAvailable": "No guides available yet. Check back soon!",
+    "playOnSteam": "Play on Steam"
   },
   "footer": {
     "aboutTitle": "Gridlords Wiki",
@@ -426,12 +455,12 @@
     "playGame": "Play Gridlords on Steam",
     "officialDiscord": "Official Discord",
     "officialYoutube": "Official YouTube",
-    "vvBuilder": "Gridlords Builder (Team Planner)",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
     "buildGuide": "Build Guide",
     "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service"
+    "termsOfService": "Terms of Service",
+    "teamBuilder": "Gridlords Builder (Team Planner)",
+    "unitGuides": "Unit Guides",
+    "mechanicGuides": "Game Mechanics"
   }
 }

@@ -1,0 +1,111 @@
+export const metadata = {
+  title: "Gridlords Item-System-Guide: Seltenheitsstufen, Stat-Rolls und Build-Synergien",
+  description: "Ein praktischer Leitfaden zum Item-System von Gridlords: Wie Seltenheitsstufen, Stat-Rolls, Affixe und Rasterplatzierung deinen Build und deine Loot-Entscheidungen prägen.",
+  category: "mechanics",
+  date: "2026-10-13",
+}
+
+## Was das Item-System von Gridlords tatsächlich steuert
+
+Zwei Spieler können denselben Charakter, dieselben Fähigkeiten und dieselbe Route spielen und trotzdem mit völlig unterschiedlichen Ergebnissen abschließen – und der größte Teil dieser Lücke kommt von Ausrüstung. Das Item-System von Gridlords ist der leise Motor hinter jedem starken Build. Es entscheidet, welche Werte du stapeln kannst, wie diese Werte interagieren, sobald Gegenstände auf dem Raster platziert sind, und wie viel echten Wert du aus jedem Drop ziehst. Sobald du verstehst, wie das Item-System von Gridlords ein Stück Loot bewertet, hörst du auf, vor einem vollen Inventar zu raten, und triffst Entscheidungen in Sekunden.
+
+Das System funktioniert wie ein Stapel aus Ebenen. Jede Ebene schränkt ein, was ein Gegenstand werden kann, und jede ist wichtiger als die vorherige.
+
+- **Basistyp** setzt die Obergrenze. Ein defensiver Basistyp wird niemals die offensiven Affixe rollen, die du willst, egal wie viel Glück du hast.
+- **Seltenheitsstufe** setzt die Kapazität — wie viele Affixe überhaupt erscheinen können.
+- **Stat-Rolls** setzen die Qualität. Hier leben oder sterben die meisten Gegenstände.
+- **Rasterplatzierung** verwandelt rohe Werte durch Nachbarschaft und Tags in Boni.
+- **Upgrade-Pfad** entscheidet, ob ein Gegenstand eine vorübergehende Überbrückung oder eine langfristige Investition ist.
+
+| Ebene | Was sie bestimmt | Praktische Konsequenz |
+| --- | --- | --- |
+| Basistyp | Welche Wertefamilien rollen können | Filtere nach Basistyp, bevor du irgendetwas anderes ansiehst |
+| Seltenheitsstufe | Anzahl der Affix-Plätze | Kapazität schlägt einen glücklichen einzelnen Roll |
+| Stat-Rolls | Zahlenbereich pro Affix | Zwei relevante Werte sind die übliche Schwelle zum Behalten |
+| Affixe und Eigenschaften | Spezialeffekte, die obendrauf liegen | Hier verstecken sich die größten Leistungssprünge |
+| Rasterplatzierung | Nachbarschafts- und Tag-Boni | Oft mehr wert als ein zusätzlicher Roll |
+| Upgrade-Pfad | Wie weit der Gegenstand gebracht werden kann | Investiere nur in Gegenstände, die eine volle Stufe überleben |
+
+## Seltenheitsstufen: Was sie dir sagen und was nicht
+
+Seltenheit ist der am meisten missverstandene Teil des Systems. Sie ist ein *Kapazitäts*-Signal, kein *Qualitäts*-Signal. Eine höhere Stufe bedeutet, dass ein Gegenstand Platz für mehr Affixe und Zugang zu einem breiteren Pool an Effekten hat – sie bedeutet nicht, dass die Affixe, die tatsächlich gerollt sind, für dich nützlich sind. Die Erfahrung der Spieler zeigt durchweg, dass ein Gegenstand der mittleren Stufe mit drei relevanten Werten einen Gegenstand der höchsten Stufe mit einem relevanten Wert und drei toten Werten übertreffen wird.
+
+| Seltenheitsband | Affix-Kapazität | Am besten geeignet für | Behalten oder verschrotten? |
+| --- | --- | --- | --- |
+| Niedrig | Minimal | Frühes Leveln und Platzhalter-Slots | Verschrotten, sobald ein besserer Basistyp auftaucht |
+| Mittel | Mäßig | Lücken füllen, während du farmst | Nur mit zwei nützlichen Werten behalten |
+| Hoch | Großzügig | Kernstücke des Builds | Fast jeden Roll behalten, später neu rollen |
+| Top | Maximal, plus einzigartige Eigenschaften | Build-definierende Slots im Endgame | Behalten und Upgrade-Materialien investieren |
+
+Eine nützliche Gewohnheit: Wenn ein Gegenstand mit hoher Kapazität mit schlechten Rolls droppt, verkaufe ihn nicht sofort. Behalte ihn als Kandidaten zum Neu-Rollen. Der Basistyp und die Kapazität sind die teuren Teile; die Zahlen lassen sich meist reparieren.
+
+## Wie Stat-Rolls und Affixe einen Build prägen
+
+Werte in Gridlords sind nicht austauschbar. Einen Wert zu stapeln, den dein Build nicht multiplizieren kann, ist eine der häufigsten Arten, wie Spieler hängen bleiben. Die Faustregel aus Community-Berichten ist einfach: **Erst multiplizieren, dann addieren.** Ein kleiner Bonus auf einen Wert, den dein Build bereits stark skaliert, wird normalerweise einen großen Bonus auf einen Wert schlagen, den nichts anderes in deinem Setup berührt.
+
+| Wertefamilie | Typische Rolle | Wer sollte sie priorisieren |
+| --- | --- | --- |
+| Rohe Kraft | Erhöht die Basisausgabe | Jeder Schadens-Build, aber erst, nachdem Multiplikatoren existieren |
+| Kritische Werte | Verbessert Burst-Fenster | Builds mit hoher Trefferfrequenz oder garantierten Krit-Quellen |
+| Überlebensfähigkeit | Leben, Rüstung, Widerstände | Frontlinien-Einheiten und Builds, die sich nicht frei repositionieren können |
+| Utility | Abklingzeiten, Energie, Mobilität | Rotationen, die ohne schnelleres Zyklieren stocken |
+| Wirtschaft | Zusätzliche Drops, Währung, Materialien | Farm-Loadouts, niemals Boss-Versuche |
+
+Affixe sind die zweite Hälfte der Gleichung. Während Werte flache Zahlen liefern, verändern Affixe das Verhalten: Sie lösen bei Treffer, bei Kill, bei niedriger Gesundheit oder bei Raster-Ereignissen aus. Weil sie miteinander interagieren, können zwei Affixe, die allein schwach klingen, ein ganzes Build tragen, wenn sie kombiniert werden. Lies Affix-Texte sorgfältig und frage, was den Auslöser auslöst und wie oft dieser Auslöser in deinem normalen Spiel tatsächlich feuert.
+
+## Rasterplatzierung und Nachbarschafts-Synergien
+
+Das ist die Ebene, die einen durchschnittlichen Build von einem großartigen trennt, und der Teil, den die meisten Spieler zu wenig nutzen. Gegenstände, die auf dem Raster nebeneinander platziert sind, können Tags teilen, teilweise Sets vervollständigen oder Nachbarschaftsboni auslösen. Einen einzelnen Gegenstand um einen Slot zu verschieben, kann deine effektiven Werte stärker verändern als ein ganzer Upgrade-Zyklus.
+
+| Synergieart | Wie sie auslöst | Worauf du achten solltest |
+| --- | --- | --- |
+| Nachbarschaft | Zwei Gegenstände mit einem gemeinsamen Tag liegen in berührenden Slots | Tags, die sich über deine Kerngegenstände wiederholen |
+| Set-Vervollständigung | Mehrere Teile aus derselben Familie ausgerüstet | Breakpoints, an denen der Set-Bonus rohe Werte schlägt |
+| Rollenabgleich | Gegenstände, die dieselbe Fähigkeit oder Schadensart buffen | Schaden bündeln, statt ihn zu verteilen |
+| Trade-off-Paare | Ein Gegenstand erhöht einen Wert und senkt einen anderen | Ob der Malus einen Wert trifft, den du tatsächlich nutzt |
+
+Drei praktische Regeln für das Raster:
+
+1. **Bündle deine Schadensgegenstände.** Isolierte offensive Teile lösen selten etwas aus.
+2. **Plane das Raster neu, bevor du upgradest.** Platzierung ist kostenlos; Materialien sind es nicht.
+3. **Behandle Nachbarschaft wie einen Wert.** Wenn zwei Layouts nah beieinander liegen, nimm das mit mehr Auslösern.
+
+## Ein praktischer Loot-Workflow
+
+Du brauchst keine Tabellenkalkulation. Du brauchst eine feste Abfolge, die du bei jedem Drop durchläufst, damit Entscheidungen Sekunden statt Minuten dauern.
+
+| Schritt | Frage, die du stellen solltest | Aktion |
+| --- | --- | --- |
+| 1. Basistyp prüfen | Passt dieser Basistyp überhaupt zu meinem Build? | Verschrotte alles außerhalb deiner Rolle oder Schadensart |
+| 2. Kapazität prüfen | Wie viele Affix-Plätze hat er? | Behalte Basistypen mit hoher Kapazität auch bei schlechten Rolls |
+| 3. Rolls bewerten | Sind zwei oder mehr Affixe relevant? | Sperre alles mit zwei oder mehr nützlichen Werten |
+| 4. Raster testen | Verbessert er Nachbarschaft oder Set-Boni? | Setze ihn ein und vergleiche Clear-Zeiten |
+| 5. Über Upgrades entscheiden | Ist die Obergrenze die Materialien wert? | Investiere nur in Gegenstände, die du mehrere Stufen behalten wirst |
+
+Wenn du aktuelle Drop-Pools oder Patchnotes überprüfen willst, bevor du Materialien investierst, ist das [Gridlords-Listing auf Steam](https://store.steampowered.com/search/?term=Gridlords) der schnellste Ort, um zu bestätigen, was sich im Live-Build geändert hat.
+
+### Häufige Fehler, die du vermeiden solltest
+
+| Fehler | Warum er schadet | Besserer Ansatz |
+| --- | --- | --- |
+| Seltenheit über Rolls jagen | Ein Gegenstand hoher Stufe mit toten Werten ist immer noch Ballast | Vergleiche relevante Affixe, nicht die Farbe |
+| Alles horten | Inventardruck verlangsamt jeden einzelnen Run | Wende die Zwei-nützliche-Werte-Regel an und mach weiter |
+| Das Raster ignorieren | Platzierungsboni übertreffen oft einen einzelnen Roll | Plane das Layout neu, bevor du Materialien ausgibst |
+| Schadensarten aufteilen | Verwässerte Skalierung schwächt jeden Multiplikator | Lege dich auf eine oder zwei Schadensarten fest |
+| Zu früh upgraden | Materialien, die in einen temporären Gegenstand fließen, verzögern deinen echten Sprung | Warte, bis der Gegenstand eine volle Inhaltsstufe schafft |
+
+## FAQ
+
+**Ist Seltenheit der wichtigste Teil des Item-Systems von Gridlords?**
+Nein. Seltenheit setzt die Kapazität, aber relevante Stat-Rolls und Rasterplatzierung bestimmen normalerweise, ob ein Gegenstand tatsächlich hilft. Ein Stück der mittleren Stufe mit den richtigen Affixen wird in den meisten Builds ein Stück der höchsten Stufe mit den falschen schlagen.
+
+**Wie viele nützliche Werte sollte ein Gegenstand haben, bevor ich ihn behalte?**
+Der übliche Community-Maßstab ist zwei. Ein relevanter Wert ist normalerweise ein Platzhalter; zwei machen einen Gegenstand testenswert; drei oder mehr machen ihn upgrade-wert, vorausgesetzt, der Basistyp passt.
+
+**Stapeln sich Nachbarschaftsboni, wenn ich mehrere Gegenstände aneinanderreihe?**
+Sie können, aber das Stapeln ist normalerweise begrenzt oder unterliegt abnehmendem Ertrag, und das Verhalten hat sich zwischen Updates geändert. Teste jeweils nur eine Layout-Änderung, damit du erkennen kannst, welcher Auslöser tatsächlich beiträgt.
+
+**Sollte ich einen Gegenstand upgraden, den ich ersetzen will?**
+Nur wenn er Inhalte schafft, die du derzeit nicht schaffst, oder wenn die Materialien im Verhältnis zu deinem Vorrat günstig sind. Andernfalls spar die Investition für ein Stück auf, das eine volle Inhaltsstufe überlebt – dort belohnt das Item-System von Gridlords Geduld am meisten.
+
+Das Item-System von Gridlords zu meistern geht weniger darum, Tabellen auswendig zu lernen, als darum, eine wiederholbare Gewohnheit aufzubauen: Basistyp prüfen, Kapazität prüfen, Rolls bewerten, dann das Raster testen. Mach das konsequent, und dein Build wird sich schneller verbessern, als es ein einzelner Glücksdrop je schaffen könnte.

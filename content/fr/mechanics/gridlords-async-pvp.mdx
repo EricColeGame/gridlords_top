@@ -1,0 +1,141 @@
+export const metadata = {
+  title: "Le PvP asynchrone de Gridlords expliqué : batailles hors ligne, escouades fantômes et minuteurs de tour",
+  description: "Un guide pratique du PvP asynchrone de Gridlords : fonctionnement des escouades fantômes, des instantanés, des minuteurs de tour et des journaux de défense, plus des conseils pour gagner plus de batailles hors ligne.",
+  category: "mechanics",
+  date: "2026-10-13",
+}
+
+## Ce que signifie réellement le PvP asynchrone de Gridlords
+
+Le PvP asynchrone de Gridlords est la réponse du jeu à un problème simple : personne ne veut rester dans un salon d’attente à attendre un adversaire en direct. Au lieu d’exiger que les deux joueurs soient en ligne en même temps, un match asynchrone vous permet d’attaquer une copie sauvegardée de l’escouade d’un autre joueur pendant qu’il est hors ligne — et ce joueur résout le combat plus tard, selon son propre emploi du temps.
+
+Ce choix de conception explique pourquoi le PvP asynchrone de Gridlords compte autant pour un jeu de tactique sur grille. Il compresse une bataille tactique complète en quelque chose que vous pouvez terminer pendant une pause café, un trajet ou les deux minutes entre deux réunions, sans jamais avoir l’impression d’avoir perdu parce que votre adversaire cliquait plus vite.
+
+Le compromis est bien réel, cependant. Vous ne pouvez pas lire l’hésitation, vous ne pouvez pas bluffer et vous ne pouvez pas vous adapter en cours de match à un humain qui vient de changer d’avis. Ce que vous obtenez à la place, c’est de la préparation et de l’exécution : planifier contre une configuration figée plutôt que contre une configuration vivante.
+
+| Facteur | PvP en direct (synchrone) | PvP asynchrone de Gridlords |
+|---|---|---|
+| Les deux joueurs en ligne en même temps | Requis | Non requis |
+| Rythme du match | Pression en temps réel | Jouez à votre rythme |
+| Ce que vous affrontez | Un humain qui réfléchit | Une escouade sauvegardée plus une logique de défense |
+| Risque de déconnexion | Peut mettre en pause ou terminer le match | Pratiquement sans importance |
+| Compétence clé testée | Réaction et adaptation | Préparation et exécution |
+| Idéal pour | Longues sessions compétitives | Sessions courtes et fréquentes |
+
+## Comment se déroule un match asynchrone, étape par étape
+
+La plupart des systèmes de tactique asynchrone suivent la même boucle, et Gridlords ne fait pas exception. Comprendre cette boucle fait la différence entre deviner les résultats et les contrôler réellement.
+
+| Étape | Ce qui se passe | Qui est actif |
+|---|---|---|
+| 1. Instantané | L’escouade de votre adversaire est sauvegardée comme copie défensive | Système |
+| 2. Reconnaissance | Vous consultez la disposition sauvegardée avant de vous engager | Attaquant |
+| 3. Déploiement | Vous choisissez les unités et les positions d’ouverture | Attaquant |
+| 4. Résolution | La bataille se déroule contre les données sauvegardées | Système |
+| 5. Entrée de journal | Le résultat est inscrit dans les historiques d’attaque et de défense | Les deux joueurs |
+| 6. Rediffusion | Le défenseur revoit le combat après coup | Défenseur |
+| 7. Mise à jour | Classements, historiques et récompenses s’ajustent | Système |
+
+Quelques termes reviennent constamment dans les discussions de la communauté, donc il est utile de les connaître :
+
+- **Instantané** — la copie figée de l’escouade d’un joueur au moment où elle a été enregistrée.
+- **Escouade fantôme** — le surnom courant donné à cet instantané lorsqu’il se bat au nom de quelqu’un.
+- **Journal de défense** — l’historique de ceux qui vous ont attaqué et de la façon dont cela s’est terminé.
+- **Rediffusion** — la lecture d’une bataille à laquelle vous n’étiez pas présent.
+- **Minuteur de tour** — le chronomètre par tour qui empêche une attaque asynchrone de rester bloquée indéfiniment.
+
+L’observation importante ici est que rien de l’*intention* du défenseur ne survit dans le match. Seuls comptent sa disposition, ses choix d’unités et le comportement défensif que le jeu lui attribue. C’est ce que vous devez résoudre.
+
+## Escouades fantômes, logique de défense et avantage de l’attaquant
+
+Comme le défenseur ne peut pas réagir, l’attaquant commence presque toujours avec un avantage informationnel. L’expérience des joueurs dans les jeux de tactique asynchrone montre systématiquement le même schéma : la personne qui attaque en second — c’est-à-dire celle qui choisit quand attaquer — gagne plus souvent que celle dont l’escouade attend sur place.
+
+| Avantage | Attaquant | Défenseur |
+|---|---|---|
+| Moment | Choisit quand engager | Doit attendre d’être attaqué |
+| Information | Peut reconnaître la disposition en premier | Ne peut pas s’adapter à votre ouverture |
+| Positionnement | Libre de choisir n’importe quelle ouverture | Enfermé dans une disposition prédéfinie |
+| Risque | Perd du classement en cas d’attaque ratée | Peut être attaqué de façon répétée |
+| Récompense | Gains actifs en cas de victoires | Gains passifs en cas de défenses réussies |
+
+### Pourquoi la défense compte quand même
+
+Il est tentant de considérer la défense comme un détail une fois que l’on comprend que les attaquants ont l’avantage. C’est une erreur, pour trois raisons :
+
+1. **Les résultats de défense se résolvent pendant que vous dormez.** Chaque défense réussie est un progrès que vous n’avez pas eu à jouer.
+2. **Les attaquants récurrents sont courants.** Si votre disposition est facile à percer, les mêmes adversaires reviendront sans cesse.
+3. **La position dans l’échelle se cumule.** Une défense qui tient ne serait-ce que la moitié du temps empêche votre classement de s’effriter pendant les heures creuses.
+
+### Comment lire une défense avant de vous engager
+
+La reconnaissance est gratuite dans la plupart des modes asynchrones, alors utilisez-la. Les retours de la communauté suggèrent que la liste de vérification la plus fiable avant l’attaque ressemble à ceci :
+
+- Identifiez d’abord les **points d’étranglement** — les cases où une ou deux unités seulement peuvent combattre à la fois.
+- Cherchez les **unités isolées** qui peuvent être éliminées avant que la ligne principale n’engage le combat.
+- Repérez toute **unité de grande valeur** mal protégée ; c’est généralement la clé de toute la disposition.
+- Vérifiez la **symétrie**. Les défenses symétriques sont généralement des défenses scriptées, et les défenses scriptées ont une contre-mesure connue.
+- Décidez votre **condition de victoire** avant de déployer, pas après.
+
+## Minuteurs, échelles et récompenses : à quoi s’attendre
+
+Le PvP asynchrone se divise généralement en quelques catégories reconnaissables. Les noms exacts et les structures de récompenses changent selon les mises à jour, alors considérez le tableau ci-dessous comme une carte des *types* de jeu plutôt qu’une liste figée.
+
+| Type de mode | Source de l’adversaire | Enjeux typiques | Durée de session |
+|---|---|---|---|
+| Amical / non classé | Joueurs choisis ou aléatoires | Aucun changement de classement | Très courte |
+| Échelle classée | Instantanés appariés par classement | Classement en hausse ou en baisse | Courte à moyenne |
+| Saisonnier / événement | Réserve propre à l’événement | Récompenses limitées dans le temps | Moyenne |
+| Guilde ou groupe | Groupes rivaux | Classements partagés | Variable |
+
+Deux choses méritent d’être anticipées. Premièrement, **les résultats de défense classée peuvent faire bouger votre classement pendant que vous êtes hors ligne**, donc une disposition faible taxe effectivement chaque session que vous jouez. Deuxièmement, **les minuteurs de tour existent pour protéger l’échelle contre les blocages** — si un attaquant abandonne un match, le système finit par le résoudre au lieu de le laisser ouvert indéfiniment.
+
+Si vous voulez approfondir la manière dont le jeu est distribué et mis à jour, la [boutique Steam](https://store.steampowered.com/) est l’endroit le plus fiable pour consulter les annonces officielles, les notes de correctif et la disponibilité sur les plateformes.
+
+| Type de joueur | Meilleure habitude asynchrone | Pourquoi cela aide |
+|---|---|---|
+| Pressé | Attaquer en une seule fois, jamais partiellement | Évite les pertes au minuteur et les matchs oubliés |
+| Grimpeur d’échelle | Revoir le journal de défense chaque semaine | Trouve la faiblesse de disposition qui coûte du classement |
+| Occasionnel | Installer une défense et l’oublier | Progression passive sans temps de jeu supplémentaire |
+| Complétionniste | Prioriser les réserves saisonnières | Les récompenses limitées dans le temps expirent ; le classement, non |
+
+## Conseils pratiques pour gagner plus de batailles PvP asynchrones dans Gridlords
+
+Ces habitudes reviennent sans cesse chez les joueurs qui grimpent régulièrement plutôt que par à-coups.
+
+**1. Reconnaissez, puis engagez-vous — jamais l’inverse.** La plus grande erreur en asynchrone est de déployer l’escouade que vous *aimez* au lieu de celle qui bat la disposition devant vous.
+
+**2. Construisez une défense qui punit l’ouverture évidente.** Partez du principe que votre adversaire attaquera sous l’angle le plus naturel. Si votre disposition s’effondre face à cet angle, elle s’effondre face à la plupart des joueurs.
+
+**3. Gardez une unité flexible en réserve.** Une unité capable de combler un trou ou d’achever une cible blessée vaut plus en asynchrone qu’en direct, car vous ne pouvez pas improviser avec un adversaire humain.
+
+**4. Traitez votre journal de défense comme un outil d’entraînement.** Les défaites auxquelles vous n’étiez pas présent sont de l’information pure — elles montrent exactement quelle ouverture votre disposition ne peut pas gérer.
+
+**5. Ne courez pas après chaque attaque.** Les variations de classement sont bruitées. Attaquer un mauvais match par frustration, c’est ainsi qu’une bonne session se transforme en session perdante.
+
+**6. Respectez le minuteur.** Asynchrone ne veut pas dire « sans chrono ». Si vous commencez un match que vous ne pouvez pas finir, vous misez sur la résolution du système plutôt que sur votre propre jeu.
+
+| Erreur courante | Ce que cela coûte | Correctif |
+|---|---|---|
+| Déployer automatiquement une escouade sauvegardée | Perd des matchs gagnables | Reconnaître, puis ajuster l’ouverture |
+| Ignorer le journal de défense | Le classement s’effrite pendant la nuit | Revoir les défaites chaque semaine |
+| Surinvestir dans une unité vedette | Une seule contre-mesure met fin à la série | Répartir la menace sur deux unités |
+| Attaquer en étant distrait | Pertes au minuteur, ouvertures bâclées | Jouer un match à la fois |
+| Copier une disposition populaire | Prévisible, facile à contrer | Adapter, ne pas dupliquer |
+
+## FAQ
+
+**Dois-je être en ligne en même temps que mon adversaire pour le PvP asynchrone de Gridlords ?**
+Non. C’est tout l’intérêt du mode. Vous attaquez une version sauvegardée de l’escouade d’un autre joueur, et celui-ci découvre le résultat plus tard via son journal de défense. Aucun des deux joueurs n’a à attendre l’autre.
+
+**Puis-je perdre du classement pendant que je suis hors ligne ?**
+Dans les modes asynchrones classés, oui — c’est une partie normale de la conception. Votre défense résout les attaques d’elle-même, donc une disposition qui tient bien protège votre classement même pendant de longues pauses, tandis qu’une disposition faible le vide discrètement.
+
+**Les escouades fantômes sont-elles plus faibles que de vrais joueurs ?**
+Pas intrinsèquement. Un instantané est une escouade à pleine puissance ; ce qui lui manque, c’est un humain qui prend des décisions sur le moment. Cela rend les escouades fantômes plus prévisibles mais souvent plus constantes, car elles ne paniquent jamais et ne cliquent jamais à côté.
+
+**À quelle vitesse puis-je progresser dans le PvP asynchrone de Gridlords ?**
+La plupart des joueurs constatent les gains les plus rapides grâce à deux habitudes : reconnaître avant de déployer et revoir les défaites en défense. Les deux prennent quelques minutes par session et, ensemble, elles corrigent les deux sources les plus courantes de défaites évitables.
+
+## En résumé
+
+Le PvP asynchrone de Gridlords récompense davantage le planificateur patient que le cliqueur rapide. Apprenez la boucle — instantané, reconnaissance, déploiement, résolution — puis traitez votre journal de défense comme un plan de cours gratuit. Faites cela, et le mode cesse d’être un jeu d’attente pour devenir un jeu de stratégie que vous jouez quand cela vous arrange.

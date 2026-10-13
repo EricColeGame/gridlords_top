@@ -1,0 +1,111 @@
+export const metadata = {
+  title: "Guide du système d'objets de Gridlords : paliers de rareté, jets de statistiques et synergies de build",
+  description: "Un guide pratique du système d'objets de Gridlords : comment les paliers de rareté, les jets de statistiques, les affixes et le placement sur la grille façonnent votre build et vos décisions de butin.",
+  category: "mechanics",
+  date: "2026-10-13",
+}
+
+## Ce que contrôle réellement le système d'objets de Gridlords
+
+Deux joueurs peuvent utiliser le même personnage, les mêmes capacités et le même itinéraire et terminer avec des résultats radicalement différents — et la majeure partie de cet écart vient de l'équipement. Le système d'objets de Gridlords est le moteur silencieux derrière chaque build solide. Il décide quelles statistiques vous pouvez empiler, comment ces statistiques interagissent une fois les objets placés sur la grille, et quelle valeur réelle vous tirez de chaque drop. Une fois que vous comprenez comment le système d'objets de Gridlords évalue une pièce de butin, vous arrêtez de deviner devant un inventaire plein et vous prenez des décisions en quelques secondes.
+
+Le système fonctionne comme un empilement de couches. Chaque couche réduit ce qu'un objet peut devenir, et chacune compte plus que la précédente.
+
+- **Le type de base** définit le plafond. Une base défensive n'obtiendra jamais les affixes offensifs que vous voulez, peu importe votre chance.
+- **Le palier de rareté** définit la capacité — combien d'affixes peuvent apparaître.
+- **Les jets de statistiques** définissent la qualité. C'est là que la plupart des objets vivent ou meurent.
+- **Le placement sur la grille** convertit les statistiques brutes en bonus via l'adjacence et les tags.
+- **La voie d'amélioration** décide si un objet est une solution temporaire ou un investissement à long terme.
+
+| Couche | Ce qu'elle détermine | À retenir en pratique |
+| --- | --- | --- |
+| Type de base | Quelles familles de stats peuvent apparaître | Filtrez par base avant de regarder quoi que ce soit d'autre |
+| Palier de rareté | Nombre d'emplacements d'affixes | La capacité vaut mieux qu'un jet unique chanceux |
+| Jets de statistiques | Plage numérique de chaque affixe | Deux stats pertinentes constituent le seuil habituel pour garder |
+| Affixes et traits | Effets spéciaux ajoutés par-dessus | Là où se cachent les plus gros pics de puissance |
+| Placement sur la grille | Bonus d'adjacence et de tags | Souvent plus précieux qu'un jet supplémentaire |
+| Voie d'amélioration | Jusqu'où l'objet peut être poussé | N'investissez que dans les objets qui survivent à un palier complet |
+
+## Paliers de rareté : ce qu'ils vous disent et ce qu'ils ne disent pas
+
+La rareté est la partie la plus mal comprise du système. C'est un signal de *capacité*, pas un signal de *qualité*. Un palier plus élevé signifie qu'un objet a de la place pour plus d'affixes et accès à un pool d'effets plus large — cela ne signifie pas que les affixes réellement obtenus vous sont utiles. L'expérience des joueurs montre régulièrement qu'un objet de palier intermédiaire avec trois stats pertinentes surpassera un objet de palier supérieur avec une seule stat pertinente et trois inutiles.
+
+| Palier de rareté | Capacité d'affixes | Idéal pour | À garder ou à recycler ? |
+| --- | --- | --- | --- |
+| Faible | Minimale | Les débuts et les emplacements temporaires | À recycler dès qu'une meilleure base apparaît |
+| Intermédiaire | Modérée | Combler les lacunes pendant que vous farmez | À garder uniquement avec deux stats utiles |
+| Élevé | Généreuse | Les pièces centrales du build | À garder avec presque n'importe quel jet, à reroll plus tard |
+| Supérieur | Maximale, plus des traits uniques | Les emplacements qui définissent un build de endgame | À garder et à investir des matériaux d'amélioration |
+
+Une habitude utile : lorsqu'un objet à grande capacité tombe avec de mauvais jets, ne le vendez pas immédiatement. Gardez-le comme candidat au reroll. La base et la capacité sont les parties coûteuses ; les chiffres peuvent généralement être corrigés.
+
+## Comment les jets de statistiques et les affixes façonnent un build
+
+Dans Gridlords, les statistiques ne sont pas interchangeables. Empiler une stat que votre build ne peut pas multiplier est l'une des façons les plus courantes de stagner. La règle empirique issue des retours de la communauté est simple : **multipliez avant d'additionner.** Un petit bonus sur une stat que votre build exploite déjà fortement battra généralement un gros bonus sur une stat que rien d'autre dans votre configuration ne touche.
+
+| Famille de stats | Rôle typique | Qui devrait la privilégier |
+| --- | --- | --- |
+| Puissance brute | Augmente la production de base | Tout build de dégâts, mais seulement après avoir obtenu des multiplicateurs |
+| Stats critiques | Améliore les fenêtres de burst | Builds à haute fréquence de coups ou avec des sources de critique garanties |
+| Survie | Santé, armure, résistances | Unités de première ligne et builds qui ne peuvent pas se repositionner librement |
+| Utilité | Temps de recharge, énergie, mobilité | Rotations qui calent sans un cycle plus rapide |
+| Économie | Butin supplémentaire, monnaie, matériaux | Configurations de farm, jamais pour les tentatives de boss |
+
+Les affixes constituent la seconde moitié de l'équation. Là où les stats donnent des chiffres fixes, les affixes changent le comportement : ils se déclenchent à l'impact, à la mort, à faible santé ou lors d'événements de grille. Parce qu'ils interagissent entre eux, deux affixes qui semblent faibles seuls peuvent porter tout un build lorsqu'ils sont associés. Lisez attentivement le texte des affixes et demandez-vous ce qui les déclenche et à quelle fréquence ce déclencheur se produit réellement dans votre jeu normal.
+
+## Placement sur la grille et synergies d'adjacence
+
+C'est la couche qui sépare un build moyen d'un excellent build, et c'est la partie que la plupart des joueurs sous-utilisent. Les objets placés côte à côte sur la grille peuvent partager des tags, compléter des ensembles partiels ou déclencher des bonus d'adjacence. Déplacer un seul objet d'une case peut changer vos statistiques effectives plus qu'un cycle d'amélioration complet.
+
+| Type de synergie | Comment elle se déclenche | Ce qu'il faut surveiller |
+| --- | --- | --- |
+| Adjacence | Deux objets avec un tag partagé occupent des cases adjacentes | Les tags qui se répètent sur vos objets principaux |
+| Complétion d'ensemble | Plusieurs pièces de la même famille équipées | Les seuils où le bonus d'ensemble dépasse les stats brutes |
+| Correspondance de rôle | Des objets qui renforcent la même capacité ou le même type de dégâts | Concentrer les dégâts au lieu de les disperser |
+| Paires à compromis | Un objet augmente une stat tout en réduisant une autre | Si la pénalité touche une stat que vous utilisez réellement |
+
+Trois règles pratiques pour la grille :
+
+1. **Regroupez vos objets de dégâts.** Les pièces offensives isolées déclenchent rarement quoi que ce soit.
+2. **Replanifiez la grille avant d'améliorer.** Le placement est gratuit ; les matériaux ne le sont pas.
+3. **Traitez l'adjacence comme une stat.** Si deux dispositions sont proches, choisissez celle avec le plus de déclencheurs.
+
+## Un flux de travail pratique pour le butin
+
+Vous n'avez pas besoin d'un tableur. Vous avez besoin d'une séquence fixe à appliquer à chaque drop, pour que les décisions prennent des secondes au lieu de minutes.
+
+| Étape | Question à se poser | Action |
+| --- | --- | --- |
+| 1. Vérifier la base | Cette base correspond-elle du tout à mon build ? | Recyclez tout ce qui sort de votre rôle ou de votre type de dégâts |
+| 2. Vérifier la capacité | Combien d'emplacements d'affixes possède-t-il ? | Gardez les bases à grande capacité même avec de mauvais jets |
+| 3. Évaluer les jets | Y a-t-il au moins deux affixes pertinents ? | Verrouillez tout objet avec deux stats utiles ou plus |
+| 4. Tester la grille | Améliore-t-il l'adjacence ou les bonus d'ensemble ? | Insérez-le et comparez les temps de clear |
+| 5. Décider des améliorations | Le plafond vaut-il les matériaux ? | N'investissez que dans les objets que vous garderez pendant plusieurs paliers |
+
+Si vous voulez vérifier les pools de drops actuels ou les notes de patch avant d'engager des matériaux, la [page Gridlords sur Steam](https://store.steampowered.com/search/?term=Gridlords) est l'endroit le plus rapide pour confirmer ce qui a changé dans la version live.
+
+### Erreurs courantes à éviter
+
+| Erreur | Pourquoi c'est nuisible | Meilleure approche |
+| --- | --- | --- |
+| Courir après la rareté plutôt que les jets | Un objet de haut palier avec des stats mortes reste un poids mort | Comparez les affixes pertinents, pas la couleur |
+| Tout accumuler | La pression sur l'inventaire ralentit chaque run | Appliquez la règle des deux stats utiles et passez à autre chose |
+| Ignorer la grille | Les bonus de placement dépassent souvent un simple jet | Replanifiez la disposition avant de dépenser des matériaux |
+| Diviser les types de dégâts | Un scaling dilué affaiblit chaque multiplicateur | Engagez-vous sur un ou deux types de dégâts |
+| Améliorer trop tôt | Les matériaux dépensés sur un objet temporaire retardent votre vrai pic de puissance | Attendez que l'objet termine un palier complet de contenu |
+
+## FAQ
+
+**La rareté est-elle la partie la plus importante du système d'objets de Gridlords ?**
+Non. La rareté définit la capacité, mais les jets de stats pertinents et le placement sur la grille déterminent généralement si un objet aide réellement. Une pièce de palier intermédiaire avec les bons affixes battra une pièce de palier supérieur avec les mauvais dans la plupart des builds.
+
+**Combien de stats utiles un objet doit-il avoir avant que je le garde ?**
+Le repère courant de la communauté est de deux. Une stat pertinente est généralement un bouche-trou ; deux rendent un objet digne d'être testé ; trois ou plus le rendent digne d'être amélioré, à condition que le type de base convienne.
+
+**Les bonus d'adjacence s'empilent-ils si j'aligne plusieurs objets ?**
+Ils le peuvent, mais l'empilement est généralement plafonné ou soumis à des rendements décroissants, et le comportement a changé entre les mises à jour. Testez un changement de disposition à la fois pour pouvoir dire quel déclencheur contribue réellement.
+
+**Dois-je améliorer un objet que je prévois de remplacer ?**
+Seulement s'il vous permet de terminer du contenu que vous ne pouvez pas terminer actuellement, ou si les matériaux sont bon marché par rapport à votre stock. Sinon, gardez l'investissement pour une pièce qui survit à un palier complet de contenu — c'est là que le système d'objets de Gridlords récompense le plus la patience.
+
+Maîtriser le système d'objets de Gridlords consiste moins à mémoriser des tableaux qu'à acquérir une habitude répétable : vérifier la base, vérifier la capacité, évaluer les jets, puis tester la grille. Faites-le systématiquement et votre build s'améliorera plus vite que ne le ferait n'importe quel drop chanceux.
