@@ -1,0 +1,14 @@
+{
+  "name": "gridlords-top",
+  "compatibility_date": "2024-09-01",
+  "workers_dev": false,
+  "assets": {
+    "directory": "./out"
+  },
+  "routes": [
+    {
+      "pattern": "gridlords.top",
+      "custom_domain": true
+    }
+  ]
+}
