@@ -43,22 +43,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the core grid combat loop, unit deployment, and the positioning habits that decide your first runs."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Best Builds",
+          "description": "Choose a squad build that fits your playstyle and learn which units and upgrades actually carry a match."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Fastest Progression",
+          "description": "Level up faster with efficient upgrade priorities, resource discipline, and smart route choices between fights."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Gridlords."
+          "title": "Combat Basics",
+          "description": "Read terrain, control turn order, and win the positioning battle before the first attack even lands."
         }
       ]
     },
@@ -66,237 +66,299 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Best Builds",
+        "Unit Tier List",
+        "Castle Combat"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
-        },
-        {
-          "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
-        },
-        {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
-        },
-        {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
-        },
-        {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
-        },
-        {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
+          "description": "Learn grid combat basics, deployment, and the habits that win your first runs.",
+          "href": "/guide/gridlords-beginner-guide"
         },
         {
           "badge": "Popular",
           "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "description": "Optimal squad compositions, upgrade priorities, and unit synergies for every playstyle.",
+          "href": "/builds/gridlords-best-build"
+        },
+        {
+          "badge": "Meta",
+          "title": "Legendary Units",
+          "description": "How to unlock and evaluate the rarest, highest-impact units in the roster.",
+          "href": "/units/gridlords-legendary-units"
+        },
+        {
+          "badge": "Popular",
+          "title": "Castle Combat",
+          "description": "Read terrain, hold the gatehouse, and win sieges with better positioning.",
+          "href": "/guide/gridlords-castle-guide"
         },
         {
           "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
+          "title": "Item System",
+          "description": "Rarity tiers, stat rolls, affixes, and grid placement explained.",
+          "href": "/mechanics/gridlords-item-system"
+        },
+        {
+          "badge": "Popular",
+          "title": "PvP Guide",
+          "description": "Action economy, initiative, and terrain in Gridlords PvP matches.",
+          "href": "/mechanics/gridlords-pvp"
+        },
+        {
+          "badge": "Updated",
+          "title": "Async PvP",
+          "description": "How ghost squads and defense logic change the way you prepare.",
+          "href": "/mechanics/gridlords-async-pvp"
         },
         {
           "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "title": "Strategy Guide",
+          "description": "Core tactics that transfer to every squad, map, and difficulty.",
+          "href": "/guide/gridlords-strategy"
+        },
+        {
+          "badge": "Updated",
+          "title": "Early Access",
+          "description": "What is in the current build and what each update adds.",
+          "href": "/platforms/gridlords-early-access"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Gridlords?",
       "paragraphs": [
-        "Gridlords is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Gridlords is a grid-based tactics game built around positioning, unit matchups, and turn-by-turn decision making. Instead of reflexes, it rewards planning: you deploy a squad, move pieces across a tactical board, manage resources between fights, and try to out-think your opponent rather than out-click them.",
+        "Battles mix single-player encounters with an async PvP autobattler mode, where you face saved squads and defense logic at your own pace. Early access keeps the roster, balance, and systems evolving, so our wiki tracks the current meta with guides, tier lists, and step-by-step walkthroughs."
       ],
       "stats": [
         {
-          "label": "Developer",
-          "value": "Midnight Continent"
+          "label": "Genre",
+          "value": "Turn-Based Tactics"
         },
         {
           "label": "Platform",
-          "value": "Roblox"
+          "value": "PC (Steam)"
         },
         {
-          "label": "Genre",
-          "value": "Fighting RPG"
+          "label": "Mode",
+          "value": "Async PvP Autobattler"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Board",
+          "value": "Grid-Based"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Combat",
+          "value": "Squad Positioning"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Status",
+          "value": "Early Access"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Publisher",
+          "value": "Goblinz Publishing"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Gridlords Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Master every Gridlords system with beginner guides, unit and build breakdowns, tier lists, item mechanics, and patch coverage all in one place.",
       "modules": [
         {
           "order": 1,
-          "name": "Gridlords Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/gridlords-codes",
-          "displayType": "code-box",
+          "name": "Gridlords Beginner Guide",
+          "description": "New player guides covering the basic gameplay loop, castle building, squad deployment, unit synergies, and asynchronous PvP fundamentals.",
+          "href": "/guide/gridlords-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Plan the whole turn before you move any unit"
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Win the position first, then trade damage"
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Focus one target at a time to remove enemy actions"
+            },
+            {
+              "label": "4",
+              "detail": "Keep one defensive option in reserve"
+            },
+            {
+              "label": "5",
+              "detail": "Skip optional elite fights until your squad has synergy"
+            },
+            {
+              "label": "6",
+              "detail": "Note the turn where each loss turned against you"
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/gridlords-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Gridlords Heroes Guide",
+          "description": "Playable heroes and unit leaders, their abilities, strategic roles, and recommended team combinations for every playstyle.",
+          "href": "/units/gridlords-legendary-units",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Rarity",
+              "detail": "Common, Rare, Epic and Legendary units scale in kit depth and upgrade cost"
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Unlock",
+              "detail": "Premium banners, shard farming, event tiers, arena shops, or fusion"
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Kit",
+              "detail": "Judge speed, area damage, signature passive and survivability together"
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/gridlords-tier-list",
-          "displayType": "tier-grid",
+          "name": "Gridlords Units and Synergies",
+          "description": "Unit types, upgrade paths, and powerful synergy combinations between buildings, units, and abilities that create stronger castle setups.",
+          "href": "/units/gridlords-units",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "Roles",
+              "detail": "Vanguard, skirmisher, marksman, support, controller and siege cover every job"
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "Coverage",
+              "detail": "Balance frontline, ranged damage and control instead of stacking one role"
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
-            },
-            {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "Position",
+              "detail": "Park ranged units on high ground and rotate damaged units behind cover"
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/gridlords-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Gridlords Castle Builds",
+          "description": "Popular castle layouts and strategic builds for offensive and defensive playstyles, focused on base-building decisions and optimization tips.",
+          "href": "/guide/gridlords-castle-guide",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Terrain",
+              "detail": "Stairs, walls, gates, rubble and moats reshape movement and sightlines"
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Zones",
+              "detail": "Gatehouse and ramparts decide most sieges before the keep falls"
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Roles",
+              "detail": "Anchors hold the gate while ranged units overwatch the courtyard"
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/gridlords-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Gridlords Tier List",
+          "description": "Heroes, units, and strategies ranked by current game balance and community testing, updated as the early access meta shifts.",
+          "href": "/builds/gridlords-best-build",
+          "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "S",
+              "detail": "Best builds and units that define the current meta"
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "A",
+              "detail": "Strong, reliable picks for most squads and maps"
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "B",
+              "detail": "Situational options that need the right support"
+            },
+            {
+              "label": "C",
+              "detail": "Niche or beginner picks to phase out as you progress"
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/gridlords-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Gridlords Items Guide",
+          "description": "Available items, upgrades, and item combinations that improve castle strength and combat performance, plus progression choices.",
+          "href": "/mechanics/gridlords-item-system",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Base Type",
+              "detail": "Filter by base before you look at stat rolls"
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Rarity",
+              "detail": "Higher rarity means more affix slots, so capacity beats one lucky roll"
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Stat Rolls",
+              "detail": "Two relevant stats is the usual keeper threshold"
+            },
+            {
+              "label": "Affixes",
+              "detail": "Special effects and traits are where the biggest power spikes hide"
+            },
+            {
+              "label": "Placement",
+              "detail": "Adjacency and tag bonuses often beat one extra roll"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Gridlords Patch Notes",
+          "description": "Balance updates, new content, gameplay changes, and developer announcements that track the evolving early access version.",
+          "href": "/platforms/gridlords-early-access",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Balance",
+              "detail": "Unit stats, abilities and matchups shift with each update"
+            },
+            {
+              "label": "Content",
+              "detail": "New units, maps and modes arrive during early access"
+            },
+            {
+              "label": "Systems",
+              "detail": "Economy, progression and matchmaking keep being tuned"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Gridlords Community Updates",
+          "description": "Official news, developer posts, community discussions, and important announcements that help players follow future features.",
+          "href": "/community/gridlords-discord",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Discord",
+              "detail": "Strategy talk, squad sharing and developer replies in real time"
+            },
+            {
+              "label": "Reddit",
+              "detail": "Longer discussions, tier debates and patch reactions"
+            },
+            {
+              "label": "Steam",
+              "detail": "Patch notes reactions, technical issues and review trends"
             }
           ]
         }
@@ -308,23 +370,23 @@
       "items": [
         {
           "question": "What is Gridlords?",
-          "answer": "Gridlords is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "Gridlords is a grid-based tactics game about positioning, unit matchups, and turn-by-turn decisions. You deploy a squad on a tactical board, manage resources between fights, and out-plan your opponent in single-player battles and async PvP autobattler matches."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "How do I start playing Gridlords?",
+          "answer": "Begin with the Gridlords Beginner Guide: learn the core run loop, keep fragile units behind cover, and plan the whole turn before you move. Winning the position first makes the damage easy."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "Does Gridlords have PvP?",
+          "answer": "Yes. Gridlords includes an async PvP autobattler mode where you fight a saved squad plus its defense logic, so you can play competitive matches at your own pace instead of in real time."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "What is the best Gridlords build?",
+          "answer": "There is no single best Gridlords build, but the strongest squads cover three jobs: a durable frontline anchor, reliable ranged damage, and control or support. Prioritize upgrades that reinforce your existing plan instead of spreading resources thin."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Where can I find Gridlords tier lists and patch coverage?",
+          "answer": "The Gridlords Wiki collects unit tier lists, castle builds, item guides, and early access patch coverage, so you can check what changed before committing to a strategy."
         }
       ]
     },
